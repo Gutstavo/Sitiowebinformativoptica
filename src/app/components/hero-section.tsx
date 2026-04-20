@@ -1,8 +1,9 @@
 import { Button } from "./ui/button";
+import { MapPin, List } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen flex items-center justify-center overflow-hidden" id="inicio">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -15,6 +16,9 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
+        <div className="inline-block px-6 py-2 rounded-full mb-6" style={{ backgroundColor: 'var(--celeste-claro)', border: '2px solid var(--dorado-bronce)' }}>
+          <span style={{ color: 'var(--azul-egipcio-profundo)' }}>Tu salud visual es nuestra prioridad</span>
+        </div>
         <h1 className="text-5xl md:text-7xl mb-6">
           Visión Clara, Estilo Perfecto
         </h1>
@@ -22,9 +26,21 @@ export function HeroSection() {
           Descubre la mejor selección de monturas y lentes con el cuidado profesional que mereces
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
-          <Button size="lg" className="bg-white text-black hover:bg-white/90" asChild>
+          <Button size="lg" asChild style={{ backgroundColor: 'var(--azul-egipcio)' } as React.CSSProperties} className="hover:opacity-90">
             <a href="https://wa.me/5212345678901?text=Hola,%20me%20gustaría%20agendar%20una%20cita" target="_blank" rel="noopener noreferrer">
               Agenda tu cita
+            </a>
+          </Button>
+          <Button size="lg" asChild style={{ backgroundColor: 'var(--azul-egipcio)' } as React.CSSProperties} className="hover:opacity-90">
+            <a href="#servicios">
+              <List className="w-5 h-5 mr-2" />
+              Ver servicios
+            </a>
+          </Button>
+          <Button size="lg" asChild style={{ backgroundColor: 'var(--azul-egipcio)' } as React.CSSProperties} className="hover:opacity-90">
+            <a href="#contacto">
+              <MapPin className="w-5 h-5 mr-2" />
+              Ubicación
             </a>
           </Button>
         </div>

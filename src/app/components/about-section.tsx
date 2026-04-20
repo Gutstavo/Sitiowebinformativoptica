@@ -1,10 +1,10 @@
 export function AboutSection() {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-20 px-6 bg-white" id="nosotros">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative h-[500px] rounded-2xl overflow-hidden">
+          <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl" style={{ border: '4px solid var(--azul-acero)' }}>
             <img
               src="https://images.unsplash.com/photo-1760337871482-9dd93e75fa88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxleWVnbGFzc2VzJTIwZGlzcGxheSUyMGVsZWdhbnR8ZW58MXx8fHwxNzc1NzM5OTU0fDA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Monturas elegantes"
@@ -14,6 +14,9 @@ export function AboutSection() {
 
           {/* Content */}
           <div>
+            <div className="inline-block px-4 py-2 rounded-full mb-4" style={{ backgroundColor: 'var(--celeste-claro)' }}>
+              <span style={{ color: 'var(--azul-egipcio-profundo)' }}>Más de 20 años de experiencia</span>
+            </div>
             <h2 className="text-4xl md:text-5xl mb-6">
               Sobre Nosotros
             </h2>

@@ -19,8 +19,8 @@ export function DoctorSection() {
 
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'var(--egyptian-blue-light)' }}>
-                  <GraduationCap className="w-6 h-6" style={{ color: 'var(--egyptian-blue)' }} />
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'var(--soft-pink)' }}>
+                  <GraduationCap className="w-6 h-6" style={{ color: 'var(--forest-green)' }} />
                 </div>
                 <div>
                   <h4 className="text-lg mb-1">Formación Académica</h4>
@@ -29,8 +29,8 @@ export function DoctorSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'var(--egyptian-blue-light)' }}>
-                  <Award className="w-6 h-6" style={{ color: 'var(--egyptian-blue)' }} />
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'var(--soft-yellow)' }}>
+                  <Award className="w-6 h-6" style={{ color: 'var(--forest-green)' }} />
                 </div>
                 <div>
                   <h4 className="text-lg mb-1">Certificaciones</h4>
@@ -39,8 +39,8 @@ export function DoctorSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'var(--egyptian-blue-light)' }}>
-                  <Users className="w-6 h-6" style={{ color: 'var(--egyptian-blue)' }} />
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'var(--soft-pink)' }}>
+                  <Users className="w-6 h-6" style={{ color: 'var(--forest-green)' }} />
                 </div>
                 <div>
                   <h4 className="text-lg mb-1">Experiencia</h4>
@@ -51,7 +51,7 @@ export function DoctorSection() {
           </div>
 
           {/* Image */}
-          <div className="relative h-[600px] rounded-2xl overflow-hidden">
+          <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-xl" style={{ border: '4px solid var(--soft-yellow)' }}>
             <img
               src="https://images.unsplash.com/photo-1758691462638-c60c83bd7310?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBvcHRvbWV0cmlzdCUyMGRvY3RvciUyMHBvcnRyYWl0fGVufDF8fHx8MTc3NTczOTk1NHww&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Dra. María González"
