@@ -40,7 +40,7 @@ export function HeroSection() {
           <Button size="lg" asChild style={{ backgroundColor: 'var(--azul-egipcio)' } as React.CSSProperties} className="hover:opacity-90">
             <a href="#contacto">
               <MapPin className="w-5 h-5 mr-2" />
-              Ubicación
+              Ver Ubicaciones
             </a>
           </Button>
         </div>
