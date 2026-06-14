@@ -31,7 +31,7 @@ export function Footer() {
             <ul className="space-y-2 text-white/80">
               <li><Link to="/" className="hover:text-white transition-colors">Inicio</Link></li>
               <li><Link to="/nosotros" className="hover:text-white transition-colors">Sobre Nosotros</Link></li>
-              <li><a href="/#servicios" className="hover:text-white transition-colors">Servicios</a></li>
+              <li><Link to="/servicios" className="hover:text-white transition-colors">Servicios</Link></li>
               <li><Link to="/promociones" className="hover:text-white transition-colors">Promociones</Link></li>
               <li><Link to="/cuidados" className="hover:text-white transition-colors">Cuidados</Link></li>
               <li><a href="/#contacto" className="hover:text-white transition-colors">Contacto</a></li>
@@ -42,11 +42,11 @@ export function Footer() {
           <div>
             <h4 className="text-lg mb-4">Servicios</h4>
             <ul className="space-y-2 text-white/80">
-              <li><a href="/#servicios" className="hover:text-white transition-colors">Examen Visual</a></li>
-              <li><a href="/#servicios" className="hover:text-white transition-colors">Monturas</a></li>
-              <li><a href="/#servicios" className="hover:text-white transition-colors">Lentes de Contacto</a></li>
-              <li><a href="/#servicios" className="hover:text-white transition-colors">Lentes de Sol</a></li>
-              <li><a href="/#servicios" className="hover:text-white transition-colors">Lentes Oftálmicos</a></li>
+              <li><Link to="/servicios" className="hover:text-white transition-colors">Examen Visual</Link></li>
+              <li><Link to="/servicios" className="hover:text-white transition-colors">Monturas</Link></li>
+              <li><Link to="/servicios" className="hover:text-white transition-colors">Lentes de Contacto</Link></li>
+              <li><Link to="/servicios" className="hover:text-white transition-colors">Lentes de Sol</Link></li>
+              <li><Link to="/servicios" className="hover:text-white transition-colors">Lentes Oftálmicos</Link></li>
             </ul>
           </div>
 

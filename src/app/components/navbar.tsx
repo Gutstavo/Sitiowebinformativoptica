@@ -22,9 +22,9 @@ export function Navbar() {
           <Link to="/nosotros" className="text-white/90 hover:text-white transition-colors">
             Nosotros
           </Link>
-          <a href="/#servicios" className="text-white/90 hover:text-white transition-colors">
+          <Link to="/servicios" className="text-white/90 hover:text-white transition-colors">
             Servicios
-          </a>
+          </Link>
           <Link to="/promociones" className="text-white/90 hover:text-white transition-colors">
             Promociones
           </Link>
@@ -52,36 +52,36 @@ export function Navbar() {
       {mobileMenuOpen && (
         <div className="md:hidden" style={{ backgroundColor: 'var(--azul-egipcio-profundo)' }}>
           <div className="px-6 py-4 space-y-4">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="block text-white/90 hover:text-white transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
               Inicio
             </Link>
-            <Link 
-              to="/nosotros" 
+            <Link
+              to="/nosotros"
               className="block text-white/90 hover:text-white transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
               Nosotros
             </Link>
-            <a 
-              href="/#servicios" 
+            <Link
+              to="/servicios"
               className="block text-white/90 hover:text-white transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
               Servicios
-            </a>
-            <Link 
-              to="/promociones" 
+            </Link>
+            <Link
+              to="/promociones"
               className="block text-white/90 hover:text-white transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
               Promociones
             </Link>
-            <a 
-              href="/#contacto" 
+            <a
+              href="/#contacto"
               className="block text-white/90 hover:text-white transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
